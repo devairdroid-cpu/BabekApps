@@ -1,0 +1,52 @@
+@font-face{
+    font-family: PoppinsRegular;
+    src: url('../../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: PopinsSemiBold;
+    src: url('../../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: RobotoSemoiBold;
+    src: url('../../fonts/Roboto/static/Roboto-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: RobotoExtraBold;
+    src: url('../../fonts/Roboto/static/Roboto-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../fonts/Roboto/static/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url('../../fonts/Roboto/static/Roboto-Bold.ttf');
+}
+
+:root{
+
+    /* COLORS */
+
+    --mainGreen: #71A894;
+    --mainWhite: #FFFFFF;
+    --tex-tcolor: #303031;
+    --text-color-light: #66645E;
+    --bodycolor: #F9F9F9;
+    --graycolor: #E7E7E7;
+}
+
+    /* FONTS */
+
+:root{
+    --poppins-semi-bold: 'PopinsSemiBold', sans-serif;
+    --poppins-regular: 'PoppinsRegular', sans-serif;
+    --roboto-semi-bold: 'RobotoSemoiBold', sans-serif;
+    --roboto-extra-bold: 'RobotoExtraBold', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-bold: 'robotoBold', sans-serif;
+}
