@@ -1,52 +1,38 @@
-@font-face{
-    font-family: PoppinsRegular;
-    src: url('../../fonts/Poppins/Poppins-Regular.ttf');
-}
+
+
 
 @font-face {
-    font-family: PopinsSemiBold;
-    src: url('../../fonts/Poppins/Poppins-SemiBold.ttf');
-}
-
-@font-face{
-    font-family: RobotoSemoiBold;
-    src: url('../../fonts/Roboto/static/Roboto-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: RobotoExtraBold;
-    src: url('../../fonts/Roboto/static/Roboto-ExtraBold.ttf');
-}
-
-@font-face {
-  font-family: Roboto;
+  font-family: RobotoMedium;
   src: url('../../fonts/Roboto/static/Roboto-Medium.ttf');
 }
 
 @font-face {
-    font-family: robotoBold;
-    src: url('../../fonts/Roboto/static/Roboto-Bold.ttf');
+  font-family: InterRegular;
+  src: url('../../fonts/Inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: InterSemiBold;
+  src: url('../../fonts/Inter/static/Inter-SemiBold.ttf');
 }
 
 :root{
 
     /* COLORS */
 
-    --mainGreen: #71A894;
+    --mainGreen: #4CAF4F;
     --mainWhite: #FFFFFF;
-    --tex-tcolor: #303031;
-    --text-color-light: #66645E;
-    --bodycolor: #F9F9F9;
-    --graycolor: #E7E7E7;
+    --tex-tcolor: #4D4D4D;
+    --text-color-light: #4D4D4D;
+    --bodycolor: #F5F5F5;
+    --graycolor: #F5F7FA;
+    --footercolor: #263238;
 }
 
     /* FONTS */
 
 :root{
-    --poppins-semi-bold: 'PopinsSemiBold', sans-serif;
-    --poppins-regular: 'PoppinsRegular', sans-serif;
-    --roboto-semi-bold: 'RobotoSemoiBold', sans-serif;
-    --roboto-extra-bold: 'RobotoExtraBold', sans-serif;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-bold: 'robotoBold', sans-serif;
+    --roboto-medium: 'RobotoMedium', sans-serif;
+    --inter-regular: 'InterRegular', sans-serif;
+    --inter-semi-bold: 'InterSemiBold', sans-serif;
 }
