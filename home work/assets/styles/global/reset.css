@@ -1,125 +1,112 @@
-/* CSS Reset */
+/* ----------------------------------------------------
+   Modern CSS Reset
+   ---------------------------------------------------- */
 
-/* Remove default margin and padding from all elements */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Universal box-sizing and spacing reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Reset HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
+/* Remove default list, quote and table styling */
+ul, ol {
+  list-style: none;
 }
 
-/* Set a base font and remove default styling */
-html, body {
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #fff;
-}
-
-/* Remove list styles */
-ol, ul {
-    list-style: none;
-}
-
-/* Remove quotes from blockquotes and q elements */
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
 }
 
-/* Reset table styling */
+/* Collapse tables by default */
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-/* Remove default button styling */
+/* Make images and media responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove border and outline from form elements */
+input, textarea, select, button {
+  border: none;
+  outline: none;
+  font: inherit;
+  background: none;
+}
+
+/* Normalize buttons */
 button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
+  cursor: pointer;
 }
 
-/* Remove default input styling */
-input, textarea, select {
-    font-family: inherit;
-    font-size: inherit;
-    border: none;
-    outline: none;
-}
-
-/* Remove default link styling */
+/* Normalize anchor links */
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Reset heading styles */
+/* Ensure consistent text rendering */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  /* ❗️ No background or margin reset here */
+}
+
+/* Default body structure — clean slate */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  /* ❗️ No background reset here */
+}
+
+/* Headings inherit font weight and size controlled by global styles */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
-/* Reset emphasis elements */
+/* Emphasis elements normalized */
 b, strong {
-    font-weight: normal;
+  font-weight: bolder;
 }
 
 i, em {
-    font-style: normal;
+  font-style: italic;
 }
 
-/* Reset image styling */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/* Remove unnecessary borders or spacing from other HTML5 elements */
+fieldset, legend {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
-/* Reset form elements */
-fieldset {
-    border: none;
-}
-
-legend {
-    display: block;
-}
-
-/* Reset HR styling */
 hr {
-    border: none;
-    height: 1px;
-    background: #ccc;
+  border: none;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.2;
 }
 
-/* Reset address styling */
+/* Remove address italics */
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
-/* Reset caption styling */
-caption {
-    text-align: left;
-}
-
-/* Reset del and ins styling */
-del {
-    text-decoration: none;
-}
-
-ins {
-    text-decoration: none;
+/* Prevent “user-select” issues in interactive elements */
+button, input, textarea, select {
+  user-select: auto;
 }

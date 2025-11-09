@@ -1,0 +1,13 @@
+html{
+    background-color: #F5F7FA;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header{
+    height: 84px;
+}
