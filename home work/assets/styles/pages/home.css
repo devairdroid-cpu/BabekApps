@@ -1,0 +1,47 @@
+.hero_section{
+    background-color: var(--graycolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 144px;
+    row-gap: 104px;
+}
+
+.hero_content{
+    width: 657px;
+    gap: 32px;
+}
+
+.hero_title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--text-color-light);
+    font-family: var(--inter-semi-bold);
+}
+
+.hero_title span{
+    color: var(--mainGreen);
+}
+
+.hero_subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color-light);
+    font-family: var(--inter-regular);
+    padding: 8px 0px 16px 0px;
+}
+
+.hero_btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--mainWhite);
+    background-color: var(--mainGreen);
+    padding: 14px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--inter-semi-bold);
+}

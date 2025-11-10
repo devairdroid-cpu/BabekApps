@@ -1,13 +1,77 @@
 html{
-    background-color: #F5F7FA;
+  background-color: var(--bodycolor);
+  font-family: var(--inter-regular);
 }
 
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+.header_container{
+  width: 100%;
+  background-color: var(--graycolor);
 }
 
 .header{
-    height: 84px;
+  width: 1440px;
+  margin: 0 auto;
+  height: 84px;
+  background-color: var(--graycolor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 120px 0px 105px;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.comp_logo{
+  padding-right: 168px;
+}
+
+.navbar{
+  padding-right: 126px;
+}
+
+.nav_menu{
+  display: flex;
+  align-items: baseline;
+  gap: 0px 50px;
+}
+
+.nav_item{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #18191F;
+  text-decoration: none;
+  font-family: var(--inter-regular);
+}
+
+.nav_item:hover{
+  font-family: var(--roboto-medium);
+  font-weight: 500;
+}
+
+.nav_btns{
+  display: flex;
+  align-items: center;
+  gap: 0px 14px;
+}
+
+.btn_login, 
+.btn_signup{
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 20px;
+  padding: 10px 20px;
+  color: var(--mainGreen);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn_login:hover, 
+.btn_signup:hover{
+  background-color: var(--mainGreen);
+  color: var(--mainWhite);
+  transition: all 0.3s ease-in-out;
 }
