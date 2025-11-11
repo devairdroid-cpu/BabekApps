@@ -60,7 +60,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
-  scrollbar-gutter: stable;
+  /* scrollbar-gutter: stable; */
   /* ❗️ No background or margin reset here */
 }
 

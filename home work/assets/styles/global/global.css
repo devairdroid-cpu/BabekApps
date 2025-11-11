@@ -3,23 +3,23 @@ html{
   font-family: var(--inter-regular);
 }
 
-.header_container{
+.container{
   width: 100%;
-  background-color: var(--graycolor);
-}
-
-.header{
-  width: 1440px;
-  margin: 0 auto;
-  height: 84px;
-  background-color: var(--graycolor);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 120px 0px 105px;
+  background-color: var(--bodycolor);
   position: sticky;
   top: 0;
   z-index: 10000;
+}
+
+.header{
+  background-color: var(--graycolor);
+  width: 100%;
+  height: 84px;
+  margin: 0 auto;
+  padding: 0px 120px 0px 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .comp_logo{
