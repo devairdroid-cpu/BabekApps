@@ -4,6 +4,9 @@
     margin: 0 auto;
 }
 
+
+/* HERO SECTION */
+
 .hero_section{
     background-color: var(--graycolor);
     display: flex;
@@ -55,6 +58,9 @@
     background-color: #2d9c2d;
 }
 
+
+/* CLIENTS SECTION */
+
 .clients_section{
     width: 100%;
     background-color: var(--mainWhite);
@@ -90,6 +96,9 @@
     gap: 136px;
     margin-top: 16px;
 }
+
+
+/* MANAGE SECTION */
 
 .manage_section{
     gap: 16px;
@@ -143,6 +152,10 @@
     font-family: var(--inter-semi-bold);
     padding: 16px 0px 8px 0px;
 }
+
+
+/* PIXEL SECTION */
+
 .pixel_section{
     display: flex;
     align-items: center;
@@ -190,11 +203,15 @@
 }
 
 
+/* BUSINNES SECTION */
+
 .businnes_section{
     background-color: var(--graycolor);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 64px 144px;
+    gap: 72px;
 }
 
 .businnes_content_title{
@@ -219,35 +236,199 @@
 }
 
 .businnes_elements{
-    width: 540px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 40px;
-    
-    
+    gap: 30px;
 }
 
-.bl{
+.bsn_item{
     display: flex;
-    gap: 7px;
+    gap: 16px;
 }
 
-.bus_element_title{
+.bsn_item_left, 
+.bsn_item_right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bsn_txt{
+    padding-right: 20px;
+}
+
+.bsn_item_title{
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
     color: var(--text-color);
+    font-family: var(--inter-semi-bold);
 }
 
-.bus_element_txt{
+.bsn_item_txt{
     font-size: 16px;
-    line-height: 24px;
     font-weight: 400;
+    line-height: 24px;
     color: var(--text-color-light);
 }
 
-.bus_element_icon{
+/* DESIGN SECTION */
+
+.design_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 144px;
+    gap: 50px;
+    padding: 48px 0;
+    background-color: var(--mainWhite);
+}
+
+.dsn_title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--text-color);
+    font-family: var(--inter-semi-bold);
+}
+
+.dsn_content{
+    width: 661px;
+    /* padding: 0px 60px; */
+}
+
+.dsn_txt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color-light);
+    padding: 16px 0 32px 0;
+}
+
+.dsn_btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--mainWhite);
+    background-color: var(--mainGreen);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dsn_btn:hover{
+    background-color: #2d9c2d;
+}
+
+/* Tesla section */
+
+.tesla_section{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 32px 144px;
+    gap: 78px;
+    background-color: var(--graycolor);
+}
+
+.tesla_content{
+    width: 748px;
+}
+
+
+.tesla.txt{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--text-color-light);
+}
+
+.tesla_title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--mainGreen);
+    font-family: var(--inter-semi-bold);
+    padding: 16px 0 8px 0;
+}
+
+.tesla_auth{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #89939E;
+}
+
+.marketing{
+    padding: 48px 144px;
+    text-align: center;
+    background-color: var(--mainWhite);
+    
+}
+
+.mrkt_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.mrkt_title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--text-color);
+    font-family: var(--inter-semi-bold);
+}
+
+.mrkt_txt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color-light);
+    width: 628px;
+}
+
+.mrkt_cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin:  16px 0 95px 0;
+}
+
+
+.mrkt_card{
+    box-shadow: 0px 4px 12px #ABBED133;
+    position: relative;
+}
+
+.card_cont{
+    position:absolute;
+    bottom: -82px;
+    left: 23px;
+    background-color: var(--graycolor);
+    padding: 16px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px #ABBED133;
+    width: 320px;
+    height: 180px;
+}
+
+.card_txt{
+    font-family: var(--inter-semi-bold);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--text-color-light);
+    margin: 0 auto;
+    width: 285px;
+    padding-bottom: 16px;
+}
+
+.readmore{
+    font-family: var(--inter-semi-bold);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--mainGreen);
 }
