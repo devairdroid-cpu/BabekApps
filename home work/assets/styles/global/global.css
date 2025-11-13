@@ -147,12 +147,14 @@ html{
   line-height: 20px;
   font-family: var(--inter-regular);
   color: var(--footertextcolor);
+  display: block;
+  margin-bottom: 12px;
 }
 
 .input_wrapper .email_input{
   padding: 9px 12px;
   border-radius: 8px;
-  color: #D9DBE1;
+  color: var(--footertextcolor);
   font-size: 14px;
   line-height: 20px;
   background-color: #515b60;
@@ -160,7 +162,7 @@ html{
 }
 
 .input_wrapper .email_input::placeholder{
-  color: #D9DBE1;
+  color: var(--footertextcolor);
 
 }
 
